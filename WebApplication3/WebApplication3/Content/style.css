@@ -1,0 +1,541 @@
+
+
+/*///////////////For All///////////////*/
+
+*				{
+				margin: 0;
+				padding: 0;
+				}
+				
+a				{
+				text-decoration: none;
+				}		
+				
+li				{
+				list-style: none;
+				}
+				
+img				{
+				border: none;
+				}
+				
+.font {	text-align:left;font:normal 18px Arial, Helvetica, sans-serif; line-height:25px;	padding-left:10px; color:#FFEDA8;}
+.font1 {	font-size:15px; line-height:20px; text-align:justify;}	
+.font2{	font-size:18px; font-family:sutonnyMJ; font-weight:normal;}
+.font3{	font-size:25px; font-family:sutonnyMJ; }	
+
+
+
+#body
+{
+background:#FFFFFF;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	height:100%;
+
+}
+#wrapper
+{
+width:960px;
+height:1200px;
+margin:0 auto;
+overflow:hidden;
+border:2px solid gray;
+}
+
+  /*.......................Header css starts here.........*/
+#header
+{
+height:507px;
+}
+
+.logo
+{
+padding-bottom:0px;
+height:250;
+width:960;
+}
+/*.menu
+{
+height:35px;
+background-color:#003333;
+border-bottom:5px inset DarkSlateGrey ;
+}
+
+.menu ul
+{
+list-style:none;
+margin-left:30px;
+}
+
+.menu li
+{
+float:left;
+border-right:2px solid #fff;
+padding-left:10px;
+padding-right:10px;
+margin:6px;
+}
+
+.menu li.last
+{
+border:0;
+}
+
+.menu li a, .menu li a:visited
+{
+text-decoration:none;
+font-family:verdana;
+font-size:12px;
+color:#fff;
+font-weight:bold;
+}
+
+.menu li a:hover
+{
+text-decoration:underline;
+}
+*/
+
+menu-container{
+   background-color:#003366;
+		background-image: -moz-linear-gradient(003366, 006699);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(003366), to(0066FF));
+		background-image: -webkit-linear-gradient(333399, 0066FF);
+		background-image: -o-linear-gradient(003366, 0066FF);
+		background-image: -ms-linear-gradient(003366, 0066FF);
+		background-image: linear-gradient(003366, 0066FF);
+}
+ #menu-wrap{
+   background-color:#006633;
+	background-image: -moz-linear-gradient(003366, #E7E7E7);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(0066FF), to(0066FF));
+	background-image: -webkit-linear-gradient(#999999, #E7E7E7);
+	background-image: -o-linear-gradient(#999999, #E7E7E7);
+	background-image: -ms-linear-gradient(#999999, #E7E7E7);
+	background-image: linear-gradient(#999999, #E7E7E7);
+}
+	#menu, #menu ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	#menu {
+		width: 970px;
+		margin: 0 auto;
+		border: 1px solid 006699;
+		background-color:#003366; /*menu color this line*/
+		background-image: -moz-linear-gradient(006699;, 0066FF); 
+		background-image: -webkit-gradient(linear, left top, left bottom, from(006699;), to(0066FF));	
+		background-image: -webkit-linear-gradient(006699, 0066FF);	
+		background-image: -o-linear-gradient(006699;, 0066FF);
+		background-image: -ms-linear-gradient(006699;, );
+		background-image: linear-gradient(006699;, 0066FF);
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		-moz-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+		-webkit-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+		box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+	}
+	
+	#menu:before,
+	#menu:after {
+		content: "";
+		display: table;
+	}
+	
+	#menu:after {
+		clear: both;
+	}
+	
+	#menu {
+		zoom:1;
+	}
+	
+	#menu li {
+		float: left;
+		border-right: 1px solid :#006666; ;
+		-moz-box-shadow: 1px 0 0 :#006666;;
+		-webkit-box-shadow: 1px 0 0 #444;
+		box-shadow: 1px 0 0 #322;
+		position: relative;
+	}
+	
+	#menu a {
+		float: left;
+		padding: 12px 28px;
+		color:#FFFFFF;
+		text-transform: uppercase;
+		font: bold 12px Arial, Helvetica;
+		text-decoration: none;
+		text-shadow: 0 1px 0 #006666;
+	}
+	
+	#menu li:hover > a {
+		color:#006666;
+	}
+	
+	*html #menu li a:hover { /* IE6 only */
+		color:#0099CC;
+	}
+	
+	#menu ul {
+		margin: 20px 0 0 0;
+		_margin: 0; /*IE6 only*/
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;
+		top: 38px;
+		left: 0;
+		z-index: 33;    
+		background:#003366;
+		background: -moz-linear-gradient(003366, #003366);
+		background-image: -webkit-gradient(linear, left top, left bottom, from(#003366), to(#003366));
+		background: -webkit-linear-gradient(003366, #003366);    
+		background: -o-linear-gradient(#444, #003366);	
+		background: -ms-linear-gradient(#444, #003366);	
+		background: linear-gradient(#444, #003366);
+		-moz-box-shadow: 0 -1px rgba(255,255,220,.3);
+		-webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.3);
+		box-shadow: 0 -1px 0 rgba(255,255,255,.3);	
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+		-o-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;  
+	}
+
+	#menu li:hover > ul {
+		opacity: 1;
+		visibility: visible;
+		margin: 0;
+	}
+	
+	#menu ul ul {
+		top: 0;
+		left: 190px;
+		margin: 0 0 0 20px;
+		_margin: 0; /*IE6 only*/
+		-moz-box-shadow: -1px 0 0 rgba(255,255,255,.3);
+		-webkit-box-shadow: -1px 0 0 rgba(255,255,255,.3);
+		box-shadow: -1px 0 0 rgba(255,255,255,.3);		
+	}
+	
+	#menu ul li {
+		float: none;
+		display: block;
+		border: 0;
+		_line-height: 0; /*IE6 only*/
+		-moz-box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+		-webkit-box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+		box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+	}
+ 	#menu li:last-child {
+ 	    border-right: none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;    
+	}
+	#menu ul li:last-child {
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		box-shadow: none;    
+	}
+	
+	#menu ul a {    
+		padding: 10px;
+		width: 170px;
+		_height: 10px; /*IE6 only*/
+		display: block;
+		white-space: nowrap;
+		float: none;
+		text-transform: none;
+		overflow: hidden;
+      text-overflow: ellipsis;
+	}
+	
+	#menu ul a:hover {
+   background:#336666;
+	background-image: -moz-linear-gradient(336666;,336666;);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#EF6C1A), to(#CD5C15));
+	background-image: -webkit-linear-gradient(#EF6C1A, #CD5C15);
+	background-image: -o-linear-gradient(#EF6C1A, #CD5C15);
+	background-image: -ms-linear-gradient(#EF6C1A, #CD5C15);
+	background-image: linear-gradient(#EF6C1A, #CD5C15);
+	}
+	
+	#menu ul li:first-child > a {
+		-moz-border-radius: 3px 3px 0 0;
+		-webkit-border-radius: 3px 3px 0 0;
+		border-radius: 3px 3px 0 0;
+	}
+	
+	#menu ul li:first-child > a:after {
+		content: '';
+		position: absolute;
+		left: 40px;
+		top: -6px;
+		border-left: 6px solid transparent;
+		border-right: 6px solid transparent;
+		border-bottom: 6px solid #444;
+	}
+	
+	#menu ul ul li:first-child a:after {
+		left: -5px;
+		top: 50%;
+		margin-top: -6px;
+		border-left: 0;	
+		border-bottom: 6px solid transparent;
+		border-top: 6px solid transparent;
+		border-right: 6px solid #3b3b3b;
+	}
+	
+	#menu ul li:first-child a:hover:after {
+		border-bottom-color: #EB6918; 
+	}
+	
+	#menu ul ul li:first-child a:hover:after {
+		border-right-color: #CD5C15;
+		border-bottom-color: transparent; 	
+	}
+	
+	#menu ul li:last-child > a {
+		-moz-border-radius: 0 0 3px 3px;
+		-webkit-border-radius: 0 0 3px 3px;
+		border-radius: 0 0 3px 3px;
+	}
+
+/* Common */
+
+.content h1 {
+	font-size:48px;
+	color:#000;
+	text-shadow:0px 1px 1px #f4f4f4;
+	text-align:center;
+	padding:60px 0 30px;
+}
+
+#banner
+{
+height:302px;
+border-bottom-style:ridge;
+border-bottom-color:#999999;
+}
+ /*.......................right-section css starts here.........*/
+.right-section
+{
+background-color:#0099CC;
+border:2px solid #003333;
+width:280px;
+height:298px;
+margin-top:0px;
+margin-right:2px;
+float:right;
+padding-right:2px;
+}
+/*.......................right-content css starts here.........*/
+
+#right_content_helper{
+	margin:5px 11px 15px 11px;
+	}
+		
+#right_content div h4{
+	background-color:rgb(27,23,22);
+	background-color:rgba(27,23,22,.9);
+	background-repeat:no-repeat;
+	background-position:180px center;
+	color:#fff;
+	font-size:.9em;
+	font-weight:normal;
+	padding:5px 0px 5px 7px;
+	-mox-transition:all .5s;
+	-webkit-transition:all .5s;
+	-o-transition:all .5s;
+	-ms-transition:all .5s;
+	transition:all .5s;
+
+  /*.......................Left-section css starts here.........*/
+.left-section
+{
+width:250px;
+margin-top:5px;
+float:left;
+padding-right:3px;
+}
+.heading
+{
+margin-top;20px;
+width:250px;
+float:left;
+margin-top:10px;
+margin-right:5px;
+font-size:24px;
+font-style:italic;
+}
+. right heading
+{
+margin-top;1px;
+margin-left:5px;
+width:280px;
+height:250px;
+float:right;
+margin-top:1px;
+margin-right:1px;
+font-size:24px;
+font-style:bold;
+}
+#change
+{
+color:#990000;
+}
+
+.left-section ul
+{
+list-style:none;
+}
+
+.left-section li
+{
+border-bottom:1px solid #ccc;
+line-height:40px;
+padding-left:20px;
+background:url(../images/arrow.gif) 0px 15px no-repeat;
+}
+
+.left-section li a, .left-section li a:visited
+{
+font-size:18px;
+color:#663333;
+text-decoration:none;
+}
+
+.left-section li a:hover
+{
+color:#000;
+}
+
+.autho
+{
+padding-left:50px;
+padding-top:10px;
+}
+
+.quote
+{
+float:right;
+.right-section
+{
+width:150px;
+margin-top:5px;
+float:right;
+padding-right:3px;
+}
+}
+  
+  /*.......................Middle-section css starts here.........*/
+.main
+{
+width:960px;
+}
+#news
+{
+color:#990099;
+ }
+#container
+{
+width:605px;
+height:650px;
+float:left;
+margin-top:10px;
+border-left:1px solid gray;
+}
+
+#paragraph
+{
+
+margin-left:30px;
+text-align:justify;
+}
+
+.secheading
+{
+margin-top:15px;
+width:290px;
+float:right;
+margin-top:15px;
+margin-right:240px;
+font-size:24px;
+font-style:italic;
+}
+
+#middle-right
+{
+margin-top:10px;
+margin-left:10px;
+height:70px;  
+width:500px;
+}
+.lastheading
+{
+width:150px;
+float:right;
+margin-top:12px;
+margin-right:270px;
+font-size:24px;
+font-style:italic;
+}
+
+#section
+{
+width:545px;
+margin-top:35px;
+margin-left:15px;
+height:115px;
+border-bottom:1px solid gray;
+}
+
+#amul
+{
+width:200px;
+height:110px;
+float:left;
+padding-top:5px;
+border-right:1px solid gray;
+}
+
+#adani
+{
+width:170px;
+height:115px;
+float:left;
+border-right:1px solid gray;
+}
+
+#rel
+{
+float:left;
+width:125px;
+padding-left:10px;  
+}
+
+#secsection
+{
+width:545px;
+height:115px;
+margin-left:15px;
+float:left;
+}
+
+
+#footer
+{
+ background-color:#333333;
+ width:900;
+ height:200;
+ clear:both;
+ text-align:center;  
+}

@@ -1,0 +1,6 @@
+c:\users\waliul\documents\visual studio 2013\Projects\CsharpProperty\CsharpProperty\bin\Debug\CsharpProperty.exe.config
+c:\users\waliul\documents\visual studio 2013\Projects\CsharpProperty\CsharpProperty\bin\Debug\CsharpProperty.exe
+c:\users\waliul\documents\visual studio 2013\Projects\CsharpProperty\CsharpProperty\bin\Debug\CsharpProperty.pdb
+c:\users\waliul\documents\visual studio 2013\Projects\CsharpProperty\CsharpProperty\obj\Debug\CsharpProperty.csprojResolveAssemblyReference.cache
+c:\users\waliul\documents\visual studio 2013\Projects\CsharpProperty\CsharpProperty\obj\Debug\CsharpProperty.exe
+c:\users\waliul\documents\visual studio 2013\Projects\CsharpProperty\CsharpProperty\obj\Debug\CsharpProperty.pdb
